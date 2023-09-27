@@ -119,13 +119,13 @@ section{
     font-size: 0.7rem;
     /* max-width: 600px; */
     /* overflow: hidden; */
-    /* border: 1px solid blue;   */
+    width: 100%;
 }
 
 
 .skill-names{
     /* width: 25%; */
-    flex: 1 25%;
+    flex: 2 25%;
 }
 
 .skill-names>label{
@@ -480,6 +480,18 @@ section{
 }
 
 @media (min-width:1200px) {
+    .info{
+        font-size: 13px;
+    }
+    .person-name{
+        font-size: 24px;
+    }
+    .role{
+        font-size: 18px;
+    }
+    .contact{
+        font-size: 16px;
+    }
     .niches{
         width: 45%;
     }
