@@ -138,6 +138,7 @@ section{
 
 .skill-bars > progress{
     display: inline-block;
+    min-width: 200px;
     width: 60%;
 }
 
